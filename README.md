@@ -1,0 +1,1 @@
+This repository demonstrates an uncommon Kotlin bug related to the map function and nullable lists.  The `map` function, when applied to a null list, returns null rather than an empty list. This behavior can be unexpected and lead to errors if not handled properly. The solution shows how to use the safe call operator and the elvis operator to gracefully handle this situation.
